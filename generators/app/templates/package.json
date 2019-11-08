@@ -25,6 +25,7 @@
     "builder-webpack-geektime": "^1.0.2",
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2",
-    "webpack-dev-server": "^3.3.1"
+    "webpack-dev-server": "^3.3.1",
+    "feflow-devkit-react-startkit": "0.0.2"
   }
 }

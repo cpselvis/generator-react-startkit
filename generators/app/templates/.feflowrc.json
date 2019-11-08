@@ -1,0 +1,14 @@
+{
+    "devkit": {
+        "commands": {
+            "dev": {
+                "builder": "feflow-devkit-react-startkit:dev",
+                "options": {}
+            },
+            "build": {
+                "builder": "feflow-devkit-react-startkit:build",
+                "options": {}
+            }
+        }
+    }
+  }
