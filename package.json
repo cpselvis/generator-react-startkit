@@ -1,0 +1,31 @@
+{
+  "name": "generator-react-startkit",
+  "version": "0.0.1",
+  "description": "React startkit",
+  "homepage": "https://github.com/cpselvis/generator-react-startkit",
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "scripts": {
+    "commitmsg": "validate-commit-msg",
+    "commit": "git-cz ",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "keywords": [
+    "feflow"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "mkdirp": "^0.5.1",
+    "shelljs": "^0.8.3",
+    "yeoman-generator": "^1.0.1",
+    "yosay": "^2.0.2"
+  },
+  "devDependencies": {
+    "commitizen": "^2.3.0",
+    "validate-commit-msg": "^2.11.1",
+    "conventional-changelog-cli": "^1.2.0",
+    "husky": "^0.13.1"
+  }
+}
